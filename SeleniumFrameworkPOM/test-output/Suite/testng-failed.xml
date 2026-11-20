@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Submit Order test(failed)">
+    <classes>
+      <class name="SeleniumFrameworkDesign.seleniumframework.pageobject.sumbittest">
+        <methods>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="sumbitOrder"/>
+        </methods>
+      </class> <!-- SeleniumFrameworkDesign.seleniumframework.pageobject.sumbittest -->
+    </classes>
+  </test> <!-- Submit Order test(failed) -->
+  <test thread-count="5" name="Error Validation Test(failed)">
+    <classes>
+      <class name="SeleniumFrameworkDesign.seleniumframework.pageobject.Errovalidation">
+        <methods>
+          <include name="LoginErrorValidation"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
+          <include name="ProductErrorValidation"/>
+        </methods>
+      </class> <!-- SeleniumFrameworkDesign.seleniumframework.pageobject.Errovalidation -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
